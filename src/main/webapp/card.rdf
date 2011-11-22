@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:wot="http://xmlns.com/wot/0.1/"
+    xmlns:word="http://xmlns.com/wordnet/1.6/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:pim="http://www.w3.org/2000/10/swap/pim/contact#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	 xmlns:cert="http://www.w3.org/ns/auth/cert#"
+	 xmlns:rsa="http://www.w3.org/ns/auth/rsa#"
+  xml:base="http://oleg.mirzov.com/card.rdf">
+
+	<foaf:Person rdf:ID="me">
+
+		<rdf:type rdf:resource="http://xmlns.com/wot/0.1/User"/>
+
+		<foaf:title>Dr</foaf:title>
+		
+        <foaf:name xml:lang="en">Oleg Mirzov</foaf:name>
+        <foaf:name xml:lang="ru">Олег Мирзов</foaf:name>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oleg Mirzov</foaf:name>
+
+        <foaf:firstName xml:lang="en">Oleg</foaf:firstName>
+        <foaf:firstName xml:lang="ru">Олег</foaf:firstName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oleg</foaf:firstName>
+
+        <foaf:family_name xml:lang="ru">Мирзов</foaf:family_name>
+        <foaf:family_name xml:lang="en">Mirzov</foaf:family_name>
+        <foaf:family_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirzov</foaf:family_name>
+
+        <foaf:surname xml:lang="en">Mirzov</foaf:surname>
+        <foaf:surname xml:lang="ru">Мирзов</foaf:surname>
+        <foaf:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirzov</foaf:surname>
+
+		<foaf:mbox_sha1sum>9af90e1c4a0d632d9fb313c770d28904557207af</foaf:mbox_sha1sum>
+		<foaf:myersBriggs>INTJ</foaf:myersBriggs>
+		<foaf:skypeID>mirzov</foaf:skypeID>
+		<foaf:openid rdf:resource="http://mirzov.myid.net/"/>
+		<foaf:account>
+			<foaf:OnlineAccount rdf:ID="linkedInAccount">
+				<foaf:accountName rdf:resource="http://www.linkedin.com/in/mirzov"/>
+				<foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+			</foaf:OnlineAccount>
+		</foaf:account>
+		<foaf:based_near rdf:resource="http://dbpedia.org/resource/Lund"/>
+		<foaf:homepage rdf:resource="http://oleg.mirzov.com/"/>
+        <foaf:img rdf:resource="http://oleg.mirzov.com/mirzov.jpg"/>
+
+		<foaf:interest rdf:resource="http://dbpedia.org/resource/Semantic_Web"/>
+		<foaf:interest rdf:resource="http://dbpedia.org/resource/Java_(programming_language)"/>
+		<foaf:interest rdf:resource="http://dbpedia.org/resource/Scala_(programming_language)"/>
+		<foaf:interest rdf:resource="http://dbpedia.org/resource/Socionics"/>
+
+		<wot:hasKey>
+
+			<wot:PubKey rdf:ID="dsaKey">
+
+		    	<wot:hex_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7E7E4452</wot:hex_id>
+		    	<wot:fingerprint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F21616F7AA910D561035E910BBD65C127E7E4452</wot:fingerprint>
+		    	<wot:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</wot:length>
+				<wot:pubkeyAddress rdf:resource="http://oleg.mirzov.com/key.asc"/>
+
+			</wot:PubKey>
+
+		</wot:hasKey>
+
+	</foaf:Person>
+
+	<rsa:RSAPublicKey>
+   	<cert:identity rdf:resource="http://oleg.mirzov.com/card.rdf#me"/>
+	   <rsa:public_exponent cert:decimal="65537"/>
+	   <rsa:modulus cert:hex="A52F0180B4633469442FC81B613DFC4414068051C8E9C97BB81AA386DF519131DF6B8B3A3B7F8CDC5948A28BBDEC2CEB38EF3950586B3380AEC1A04E46A7205CE2E8E26BD2420D84F7660E3E3CCDCB5EE4080D08F0DA6EE9FBE29E26E1AC90AD97E7ABE78B4D14F5CD11027D1ACEBF083E5F2AC257639D67E88D6356ABF90F7B"/>
+	</rsa:RSAPublicKey>
+
+</rdf:RDF>

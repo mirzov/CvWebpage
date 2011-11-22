@@ -1,0 +1,55 @@
+<lift:surround with="default" at="content">
+
+	<head><title>Oleg Mirzov's selected books</title></head>
+
+	<div id="header">
+		<h1><a name="#">Oleg Mirzov's web page</a></h1>
+		<h2>Selected books</h2>
+	</div>
+
+	<lift:surround with="right" at="content">
+		<div>
+			<a name="semweb" />
+			<img src="./SemWebForOntologist.jpg" class="bookCover" />
+			<p><a href="http://workingontologist.org/">Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<img src="./SemWebProgramming.jpg" class="bookCover" />
+			<p><a href="http://semwebprogramming.org/">Semantic Web Programming</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<img src="./SemWebForDummies.jpg" class="bookCover" />
+			<p><a href="http://www.amazon.com/Semantic-Web-Dummies-Jeffrey-Pollock/dp/0470396792">Semantic Web For Dummies</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<a name="scala" />
+			<img src="./ProgrammingInScala.jpg" class="bookCover" />
+			<p><a href="http://www.artima.com/shop/programming_in_scala">Programming in Scala</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<img src="./DefinitiveGuideToLift.jpg" class="bookCover" />
+			<p><a href="http://apress.com/book/view/1430224215">The Definitive Guide to Lift: A Scala-based Web Framework</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<img src="./EffectiveJava_2nd_ed.jpg" class="bookCover" />
+			<p><a href="http://java.sun.com/docs/books/effective/">Effective Java (2nd Edition)</a></p>
+		</div>
+		<div class="br" />
+
+		<div>
+			<img src="./CodeComplete2.jpg" class="bookCover" />
+			<p><a href="http://cc2e.com/">Code Complete: A Practical Handbook of Software Construction</a></p>
+		</div>
+	</lift:surround>
+
+</lift:surround>

@@ -1,0 +1,92 @@
+<lift:surround with="default" at="content">
+	<head><title>Oleg Mirzov's CV experience</title></head>
+
+	<div id="header"><h1><a name="#">Oleg Mirzov's experience</a></h1></div>
+
+	<lift:surround with="right" at="content">
+
+    	<h1>Oleg Mirzov's experience</h1>
+
+		<a name="clinical"><h2>Clinical studies</h2></a>
+		<ul>
+			<li><b>Modeling and conversion</b>. Participated in remodeling and converting AstraZeneca's <a href="http://www.astrazenecaclinicaltrials.com/clinicaltrials/symbicort/">Symbicort® Clinical Trials</a> results into a Capish<span class="capish">!</span> database.
+			<li><b>Restricted-access data</b>. Worked with valuable clinical study data under secrecy agreements.</li>
+			<li><b>GCP</b>. Took a basic course in <a href="http://en.wikipedia.org/wiki/Good_clinical_practice">Good Clinical Practice</a>.</li>
+		</ul>
+
+		<a name="semweb"><h2>Semantic Web</h2></a>
+		<ul>
+			<li><b>General</b>. Actively following the developments since Autumn 2006. Have read/familiarized oneself with a series of <a href="/books/#semweb">books on the subject</a>.</li>
+			<li><b>Protégé API</b>.</li>
+			<li><b>Knowledge base architect.</b> Using the <a href="http://protege.stanford.edu/">Protégé</a> ontology editor, <a href="http://www.chemphys.lu.se/website/">designed a knowledge base</a> containing the information presented on <a href="http://www.chemphys.lu.se/">Chemical Physics</a> website (people, projects, techniques, labs, etc, and their mutual relationships).  Besides, designed a knowledge base for storing diverse information about scientific articles within the topics related to <a href="http://www.chemphys.lu.se/research/subjects/orgsemi/">Organic Semiconductors</a> and <a href="http://www.chemphys.lu.se/research/techniques/sms/">Single molecule spectroscopy</a>.</li>
+		</ul>
+
+		<a name="development"><h2>Software Development</h2></a>
+		<ul>
+			<li><b>Java</b>.</li>
+			<li><b>QlikView</b>. </li>
+			<li><b>Scala</b>. Active learning stage at the moment.</li>
+			<li><b>C++, Matlab programmer.</b> Produced an extensive set of software for data processing and simulations (see also the <a href="#computations">Computations</a> section).</li>
+	    	<li><b>XSLT programmer.</b> Wrote a set of XSLT transformations to produce <a href="http://www.chemphys.lu.se/">Chemical Physics</a> website's pages from XML exported from the Protégé ontology (see above).</li>
+		</ul>
+
+		<a name="it"><h2>General IT experience</h2></a>
+		<ul>
+	    	<li><b>Webmaster and administrator.</b> From July 2006 to the end of 2008 responsible for administering the web server of <a href="http://www.chemphys.lu.se/">Chemical Physics</a> Department (<i>Apache/2.2.3 (Ubuntu) mod-xslt/1.3.9</i>), as well as development and maintenance of the website. Wrote the internal <a href="http://www.chemphys.lu.se/website/">data representation and structure</a> of the website.</li>
+	    	<li><b>System administrator</b> of the Department since November 2005. Responsible for network and software troubleshooting (localt dator- och nätansvarig), departmental file server and network administrator (Windows 2000 Server based domain).</li>
+	    	<li><b>Experienced user of the following software:</b>
+	    		<ul>
+	    			<li>Operating systems: Windows (All), Linux (Ubuntu Server/Desktop, Fedora Desktop)</li>
+	    			<li>Document editing systems: LaTeX, Microsoft Office, Open Office</li>
+	    			<li>Programming/data processing: Eclipse IDE, Borland C++ Builder, Visual Studio, GCC, Matlab, MathSoft Mathcad, Microcal Origin</li>
+	    			<li>3D graphics and raytracing: POV Ray, Blender</li>
+	    			<li>2D graphics: GIMP, Inkscape</li>
+	    		</ul>
+	    	</li>
+    	</ul>
+			<a href="#"><small>Back to top</small></a>
+
+    	<a name="computations"><h2>Computational experience</h2></a>
+  		<ul>
+  			<li><b>Image processing.</b> Wrote a <a href="./achievements.html#soft">package of software</a> for automatic detection of molecules in experimental "movies", as well as for extracting their fluorescence intensity dynamics and spectral information.</li>
+  			<li><b>Noise filtering.</b> Programmed the Wiener optimal filtering algorithm and applied it to fluorescence intensity trace analysis. This allowed to evaluate the phenomenon of fluorescence blinking quantitatively, excluding the noise.</li>
+			<li><b>Deconvolution problem.</b> Wrote programs for extracting fluorescence kinetics from the results of TCSPC measurements by deconvolution/reconvolution of the measured kinetics/model with instrument response function of the apparatus. Some versions of the programs included programming FFT (fast Fourier transform).</li>
+			<li><b>Fitting routines.</b> Used in numerous data processing programs. Particularly worth noting is a program for <a href="http://www.chemphys.lu.se/research/techniques/polarsms/#model">fitting a model</a> to experimental results obtained with <a href="http://www.chemphys.lu.se/research/techniques/polarsms/">2D polarisation single-molecule spectroscopy</a>.</li>
+			<li><b>Monte Carlo simulations.</b> Programmed a <a href="http://www.chemphys.lu.se/research/projects/chainsimul/#monte">Monter Carlo simulation</a> to model the shape of a long (1000 monomer units) polymer chain.</li>
+			<li><b>Other.</b> Wrote other numerous data processing and simulating programs of more specific nature.</li>
+		</ul>
+			<a href="#"><small>Back to top</small></a>
+
+		<a name="lab"><h2>Laboratory experience</h2></a>
+		<ul>
+			<li>Building a new setup for single-molecule spectroscopy (based on wide-field fluorescence microscope). Optical experimental setup adjustment.</li>
+			<li>Sample preparation for single-molecule spectroscopy.</li>
+			<li>Preparation of electroluminescent devices (comprises substrate lithography, solutions preparation, spin-coating technique, metal electrode evaporation procedure).</li>
+			<li>Operating different laser sources: He-Ne, He-Cd, nitrogen laser, picosecond diode laser (PicoQuant), Nd:YAG laser (Antares), picosecond R6G dye laser (Coherent), Tsunami femtosecond system: adjustment and tuning (Spectra Physics), Ar+ laser (Spectra Physics).</li>
+			<li>Using various optical instruments: monochromators, spectrometers, photodiodes, photomultipliers, CCD line, CCD cameras etc.</li>
+			<li>Performing standard optical measurements: photo- and electroluminescence spectra, photoabsorption and photoluminescence spectra, ellipsometrical and interferometrical film thickness measurement.</li>
+			<li>Luminescence kinetics measurement using Time Correlated Single Photon Counting technique (TCSPC).</li>
+			<li>Working with helium and nitrogen cryostats.</li>
+			<li>Basic chemical laboratory skills.</li>
+		</ul>
+		<a href="#"><small>Back to top</small></a>
+
+    	<a name="teaching"><h2>Teaching experience</h2></a>
+    	<ul>
+    		<li>Developed a laboratory work in spectroscopy for the students of <a href="http://www.kemi.lu.se/utbildning/grundkurser/kem016/index.asp">KEM016</a> course. This included developing the concept of the work, creating tasks and problems and writing the <a href="http://www.chemphys.lu.se/people/mirzov/labinstr.pdf">lab instructions</a> (supervised by <a href="http://www.chemphys.lu.se/people/pullerits/">Tõnu Pullerits</a>).</li>
+    		<li>Worked as a lab assistant for this spectroscopy lab in <a href="http://www.kemi.lu.se/utbildning/grundkurser/kem016/index.asp">KEM016</a> for 4 years from 2005 to 2008 inclusive.</li>
+    		<li>Worked as a supervisor for single-molecule spectroscopy project for the students of <a href="http://www.kemi.lu.se/utbildning/grundkurser/kem103/index.asp">KEM103</a> course in 2006.</li>
+    		<li>Teacher of physics and mathematics at the <a href="http://www.school.mipt.ru/">Distance Learning School</a> at <a href="http://phystech.edu/">MIPT</a> (in 1998 and 2001, ~1 year in total).</li>
+    	</ul>
+			<a href="#"><small>Back to top</small></a>
+				
+    	<a name="other"><h2>Other experience</h2></a>
+    	<ul>
+    		<li>Have given tens talks and presentations.</li>
+    		<li>Was the Department's photographer in 2005-2007.</li>
+    		<li>Was responsible for organizing the departmental <a href="http://www.chemphys.lu.se/seminars/">seminars</a> in <a href="http://www.chemphys.lu.se/seminars/seminars06_07.xml">2006-2007</a>.</li>
+    	</ul>
+			<a href="#"><small>Back to top</small></a>
+	</lift:surround>
+</lift:surround>
+
