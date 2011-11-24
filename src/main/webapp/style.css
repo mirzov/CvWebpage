@@ -14,7 +14,7 @@ img { border: none; }
 
 img.floatRight { 
     float: right; 
-    margin: 4px; 
+    margin: 4px 4px 0px 4px; 
 }
 img.floatLeft { 
     float: left; 
@@ -69,7 +69,7 @@ line-height: 12px;
 #left { float: left; width: 180px; background: #CFDDFF; margin-bottom: 10px; margin-top: 20px;}
 #left ul { padding: 5px 10px 10px 10px; margin: 0; }
 #left li { list-style-type: none;}
-#right { margin-bottom: 10px; float: right; width: 550px; padding: 0 10px 10px 10px; margin-top: 10px;}
+#right { margin-bottom: 10px; float: right; width: 550px; padding: 0 0px 10px 10px; margin-top: 10px; margin-right: -3px;}
 #right li { padding-left: 10px; margin-left: 10px;}
 
 #footer { font-size: 11px; text-align: center; border-top: 1px solid #ccc; padding: 10px 5px; }
